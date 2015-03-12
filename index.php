@@ -1,5 +1,5 @@
 <?php
-//test
+//test.
 echo '<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru" dir="ltr">
 <head>
