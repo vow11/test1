@@ -1,0 +1,172 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27.02.2015, 6:00:37
+    Author     : manowar
+*/
+
+html, body {
+	margin:0px; padding:0px; 
+	background:#fff;
+	position:relative; 
+}
+
+body {
+	text-align:center;
+}
+
+
+#all {
+	text-align:left;
+	margin:0 auto;
+	width:1024px;
+}
+
+.head {
+	display:block;
+	height:60px;
+	background:#0C1C06;
+	padding:1px;
+}
+
+#container {
+	position:relative; 
+	display:block; 
+background:#ffec97;
+}
+#inner {
+	display:block;
+	position:relative;
+	 
+	padding:1px;
+}
+
+#center {
+	position:relative; 
+	display:block;
+	height:1%;
+}
+.clear {
+	clear:both;
+}
+
+
+.foot {
+	display:block;
+	height:50px;
+	background:#0C1C06;
+	padding:1px;
+}
+
+/*стиль для контента*/
+.content_field {
+        width: 80%;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+        -moz-box-shadow: 0px 0px 1px #000000;
+        -webkit-box-shadow: 0px 0px 1px #000000;
+        box-shadow: 0px 0px 1px #000000;
+        /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+
+}
+
+.content_table {
+	margin:0px;padding:0px;
+	width:100%;
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #000000;
+	
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-left-radius:5px;
+	border-bottom-left-radius:5px;
+	
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-bottom-right-radius:5px;
+	
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+	border-top-right-radius:5px;
+	
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	border-top-left-radius:5px;
+}.content_table table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.content_table tr:last-child td:last-child {
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.content_table table tr:first-child td:first-child {
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	border-top-left-radius:5px;
+}
+.content_table table tr:first-child td:last-child {
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+	border-top-right-radius:5px;
+}.content_table tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-left-radius:5px;
+	border-bottom-left-radius:5px;
+}.content_table tr:hover td{
+	
+}
+.content_table tr:nth-child(odd){ background-color:#cccccc; }
+.content_table tr:nth-child(even)    { background-color:#ffffff; }.content_table td{
+	vertical-align:middle;
+	
+	
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:7px;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+}.content_table tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.content_table tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.content_table tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.content_table tr:first-child td{
+		background:-o-linear-gradient(bottom, #191919 5%, #666666 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #191919), color-stop(1, #666666) );
+	background:-moz-linear-gradient( center top, #191919 5%, #666666 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#191919", endColorstr="#666666");	background: -o-linear-gradient(top,#191919,666666);
+
+	background-color:#191919;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:16px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#ffffff;
+}
+.content_table tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #191919 5%, #666666 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #191919), color-stop(1, #666666) );
+	background:-moz-linear-gradient( center top, #191919 5%, #666666 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#191919", endColorstr="#666666");	background: -o-linear-gradient(top,#191919,666666);
+
+	background-color:#191919;
+}
+.content_table tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.content_table tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
